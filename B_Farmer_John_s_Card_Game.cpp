@@ -16,11 +16,17 @@ int main(){
         for(int i=0; i<n; i++){
             sort(v[i].begin(), v[i].end());
         }
-        for(int i=0; i<n; i++)
-            for(int j=0; j<m-1; j++){
-                if(v[i][j]+1 == v[i][j+1] || v[i][j]-1 == v[i][j+1])
-                cout << "no" << endl;
-                return 1;
+        vector<int> map(m);
+
+        int valid=1;
+        
+            for(int j=0; j<m; j++){
+                if(v[j][0]<m)
+                map[v[j][0]] = j;
+                else{
+                    valid =0; break;
+                }
             }
+            
     }
 }

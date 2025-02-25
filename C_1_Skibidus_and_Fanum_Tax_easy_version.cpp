@@ -19,20 +19,21 @@ int main(){
            
             if(v[i]>v[i+1]){
                
-                 if(m1-v[i]>v[i+1]){
-                    v[i+1]=m1-v[i+1];
-                    if(v[i]>v[i+1]){
-                        s="NO";
-                break;
-                    }
-                 }
-                 else{
-                    v[i]=m1-v[i];
-                    if(v[i]>v[i+1] || (i!=0 && v[i]<v[i-1])){
-                     s="NO";
-                break;
-                }
-                 }
+                //  if(m1-v[i]>v[i+1]){
+                //     v[i+1]=m1-v[i+1];
+                //     if(v[i]>v[i+1]){
+                //         s="NO";
+                // break;
+                //     }
+                //  }
+                //  else{
+                //     v[i]=m1-v[i];
+                //     if(v[i]>v[i+1] || (i!=0 && v[i]<v[i-1])){
+                //      s="NO";
+                // break;
+                // }
+                //  }
+                
                 
                
             }

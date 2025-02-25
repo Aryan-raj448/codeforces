@@ -22,7 +22,7 @@ int main(){
 	stack<char> op;
 	for(int i=0; i<s.length(); i++){
 		if(s[i]>=48 && s[i]<=57) {
-		st.push(to_string(s[i]));
+		st.push(to_string(s[i]-48));
 	}	else{
 			if(op.size()==0) op.push(s[i]);
 			else if(s[i]=='(') op.push(s[i]);
