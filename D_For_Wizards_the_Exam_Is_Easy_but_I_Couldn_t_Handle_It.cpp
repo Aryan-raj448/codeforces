@@ -17,9 +17,7 @@ int main(){
             if(v[i]<v[i-1]){
                 max=v[i-1];
                 l=i;
-            }
-            
-            
+            }     
         }
 
         for(int i=n-1; i>0; i--){

@@ -12,7 +12,7 @@ int main(){
         long long h=0;
         long long u=0;
         while(n--){
-            int k;
+            char k;
             cin >> k;
             if(k=='-')
             h++;
